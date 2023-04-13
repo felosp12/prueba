@@ -1,5 +1,6 @@
 // sofwtare Master en java script
 
+console.log ("bienvenido a sofwtare master")
 
 const readline = require('readline');
 

@@ -39,6 +39,7 @@ let vector1 = [];
 let vector2 = [];
 
 // Solicitamos al usuario que ingrese los valores del primer vector
+console.log ("bienvenido a sofwtare master")
 console.log('Ingrese los valores del primer vector (ordenados de forma ascendente):');
 for (let i = 0; i < MAX_SIZE; i++) {
   const value = parseInt(rl.question(`Valor ${i + 1}: `));
@@ -53,7 +54,7 @@ for (let i = 0; i < MAX_SIZE; i++) {
 }
 
 // Solicitamos al usuario que ingrese los valores del segundo vector
-console.log ("bienvenido a sofwtare master")
+
 console.log('Ingrese los valores del segundo vector (ordenados de forma ascendente):');
 for (let i = 0; i < MAX_SIZE; i++) {
   const value = parseInt(rl.question(`Valor ${i + 1}: `));

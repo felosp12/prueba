@@ -39,7 +39,7 @@ function calcularAreaCirculo(radio) {
 function calcularPerimetroCirculo(radio) {
   return 2 * Math.PI * radio;
 }
-
+   console.log ("bienvenido a sofwtare master");
 rl.question('¿Qué figura desea calcular? (triángulo, cuadrado, rectángulo, círculo): ', (figura) => {
   switch (figura) {
     case 'triángulo':
